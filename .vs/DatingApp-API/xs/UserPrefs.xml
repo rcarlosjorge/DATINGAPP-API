@@ -1,0 +1,32 @@
+﻿<Properties StartupConfiguration="{C446C18A-609C-4394-9FF4-F74AB7A965AA}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.DatingApp-API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Entities/AppUser.cs">
+    <Files>
+      <File FileName="appsettings.json" />
+      <File FileName="Program.cs" />
+      <File FileName="WeatherForecast.cs" />
+      <File FileName="Controllers/WeatherForecastController.cs" Line="15" Column="1" />
+      <File FileName="Properties/launchSettings.json" Line="26" Column="69" />
+      <File FileName="Entities/AppUser.cs" Line="7" Column="39" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="DatingApp-API" expanded="True">
+            <Node name="DatingApp-API" expanded="True">
+              <Node name="Entities" expanded="True">
+                <Node name="AppUser.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>
