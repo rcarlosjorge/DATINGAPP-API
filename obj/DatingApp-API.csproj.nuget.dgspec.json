@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/carlosjorge/Projects/DatingApp-API/DatingApp-API.csproj": {}
+    "/Users/carlosjorge/DATINGAPP-API/DatingApp-API.csproj": {}
   },
   "projects": {
-    "/Users/carlosjorge/Projects/DatingApp-API/DatingApp-API.csproj": {
+    "/Users/carlosjorge/DATINGAPP-API/DatingApp-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/carlosjorge/Projects/DatingApp-API/DatingApp-API.csproj",
+        "projectUniqueName": "/Users/carlosjorge/DATINGAPP-API/DatingApp-API.csproj",
         "projectName": "DatingApp-API",
-        "projectPath": "/Users/carlosjorge/Projects/DatingApp-API/DatingApp-API.csproj",
+        "projectPath": "/Users/carlosjorge/DATINGAPP-API/DatingApp-API.csproj",
         "packagesPath": "/Users/carlosjorge/.nuget/packages/",
-        "outputPath": "/Users/carlosjorge/Projects/DatingApp-API/obj/",
+        "outputPath": "/Users/carlosjorge/DATINGAPP-API/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/carlosjorge/.nuget/NuGet/NuGet.Config"
@@ -40,6 +40,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.10, )"
@@ -47,6 +51,10 @@
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.10, )"
             },

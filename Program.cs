@@ -3,9 +3,7 @@ using DatingApp_API.Data;
 using DatingApp_API.Extensions;
 using DatingApp_API.Interfaces;
 using DatingApp_API.Services;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.Tokens;
 
 var builder = WebApplication.CreateBuilder(args);
 
