@@ -6,21 +6,21 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace DatingApp_API.Controllers
 {
-	public class BuggyController : BaseApiController
-	{
-		private readonly DataContext _context;
+    public class BuggyController : BaseApiController
+    {
+        private readonly DataContext _context;
 
-		public BuggyController(DataContext context)
-		{
-			_context = context;
-		}
+        public BuggyController(DataContext context)
+        {
+            _context = context;
+        }
 
-		[Authorize]
-		[HttpGet("auth")]
-		public ActionResult<String> GetSecret()
-		{
-			return "secret text";
-		}
+        [Authorize]
+        [HttpGet("auth")]
+        public ActionResult<String> GetSecret()
+        {
+            return "secret text";
+        }
 
         [HttpGet("not-found")]
         public ActionResult<AppUser> GetNotFound()
@@ -35,11 +35,19 @@ namespace DatingApp_API.Controllers
         [HttpGet("server-error")]
         public ActionResult<String> GetServerError()
         {
-            var thing = _context.Users.Find(-1);
+            try
+            {
 
-            var thingToReturn = thing.ToString();
+                var thing = _context.Users.Find(-1);
 
-            return thingToReturn;
+                var thingToReturn = thing.ToString();
+
+                return thingToReturn;
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, "Computer says no!");
+            }
         }
 
         [HttpGet("bad-request")]
