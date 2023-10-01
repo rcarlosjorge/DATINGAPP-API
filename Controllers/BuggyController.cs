@@ -35,19 +35,12 @@ namespace DatingApp_API.Controllers
         [HttpGet("server-error")]
         public ActionResult<String> GetServerError()
         {
-            try
-            {
 
-                var thing = _context.Users.Find(-1);
+            var thing = _context.Users.Find(-1);
 
-                var thingToReturn = thing.ToString();
+            var thingToReturn = thing.ToString();
 
-                return thingToReturn;
-            }
-            catch (Exception ex)
-            {
-                return StatusCode(500, "Computer says no!");
-            }
+            return thingToReturn;
         }
 
         [HttpGet("bad-request")]
