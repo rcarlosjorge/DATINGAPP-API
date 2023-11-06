@@ -3,30 +3,29 @@
   <MultiItemStartupConfigurations />
   <MonoDevelop.Ide.Workbench ActiveDocument="Entities/AppUser.cs">
     <Files>
-      <File FileName="appsettings.json" />
-      <File FileName="Program.cs" />
-      <File FileName="WeatherForecast.cs" />
-      <File FileName="Controllers/WeatherForecastController.cs" />
-      <File FileName="Properties/launchSettings.json" />
-      <File FileName="Entities/AppUser.cs" Line="7" Column="39" />
+      <File FileName="Controllers/AccountController.cs" />
+      <File FileName="DTOS/UserDto.cs" />
+      <File FileName="Entities/AppUser.cs" Line="13" Column="43" />
+      <File FileName="Entities/Photo.cs" />
+      <File FileName="Extensions/DateTimeExtensions.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="DatingApp-API">
             <Node name="DatingApp-API">
-              <Node name="Entities" expanded="True">
-                <Node name="AppUser.cs" selected="True" />
-              </Node>
+              <Node name="Dependencies" selected="True" />
+              <Node name="Controllers" expanded="True" />
+              <Node name="Entities" expanded="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.DatingApp-API PreferredExecutionTarget="/System/Volumes/Preboot/Cryptexes/App/System/Applications/Safari.app" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.DatingApp-API PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
