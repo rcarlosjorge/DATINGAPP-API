@@ -17,6 +17,6 @@ This project is under development and I have currently completed 8 of the 23 mod
 To run this project locally, follow these steps:
 
 ````bash
-git clone https://github.com/rcarlosjorge/datingapp-api.git
+git clone https://github.com/rcarlosjorge/DATINGAPP-API.git
 dotnet restore
 dotnet run
